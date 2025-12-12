@@ -53,5 +53,8 @@ TagManager:
   - name: Walkbehind
     uniqueID: 1815474147
     locked: 0
+  - name: BorderTrees
+    uniqueID: 3692248871
+    locked: 0
   m_RenderingLayers:
   - Default
