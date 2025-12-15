@@ -5,21 +5,16 @@ using System.Collections.Generic;
 
 public class MapTransition : MonoBehaviour
 {
-    // [1] Capitalized 'D' in Collider2D
+
     [SerializeField] PolygonCollider2D mapBoundry;
     [SerializeField] Direction direction;
     [SerializeField] Transform teleportTargetPosition;
 
-    // [2] Declaration for the camera confiner component
+
 
     enum Direction { up, down, left, right, teleport }
 
-    // Add a Start or Awake method to find the confiner component
-    void Awake()
-    {
-
-
-    }
+    
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -29,8 +24,6 @@ public class MapTransition : MonoBehaviour
 
             UpdatePlayerPosition(collision.gameObject);
 
-            //MapController_Manual.Instance?.HighlightArea(mapBoundry.name);
-            //MapController_Dynamic.Instance?.UpdateCurrentArea(mapBoundry.name);
         }
     }
 
