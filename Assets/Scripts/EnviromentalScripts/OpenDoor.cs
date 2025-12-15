@@ -1,14 +1,20 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
+using System.Collections.Generic;
 
 public class OpenDoor : MonoBehaviour
 {
     
     public string ChosenSceneName;
 
-    void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Trigger Entered!");
-        //SceneManager.LoadScene(ChosenSceneName);
+        if (collision.CompareTag("Player"))
+        {
+            SceneManager.LoadScene(ChosenSceneName);
+        }
+
+
     }
 }

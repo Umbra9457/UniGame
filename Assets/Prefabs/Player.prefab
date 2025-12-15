@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 3460340498818883172}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -204,6 +204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 922a64abebb87e24a92126316d24e268, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChosenSceneName: 
 --- !u!1 &6588980176459707774
 GameObject:
   m_ObjectHideFlags: 0
