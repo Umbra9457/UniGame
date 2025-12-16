@@ -25,6 +25,8 @@ public class MapTransition : MonoBehaviour
             UpdatePlayerPosition(collision.gameObject);
 
         }
+
+
     }
 
     void UpdatePlayerPosition(GameObject Player)

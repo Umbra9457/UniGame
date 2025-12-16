@@ -48,11 +48,11 @@ TagManager:
   - name: walkinfront
     uniqueID: 1471038817
     locked: 0
-  - name: Player
-    uniqueID: 1513591353
-    locked: 0
   - name: Enemy
     uniqueID: 1719700427
+    locked: 0
+  - name: Player
+    uniqueID: 1513591353
     locked: 0
   - name: Walkbehind
     uniqueID: 1815474147
