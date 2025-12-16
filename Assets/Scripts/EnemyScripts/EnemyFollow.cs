@@ -4,27 +4,46 @@ using System.Collections.Generic;
 
 public class EnemyFollow : MonoBehaviour
 {
-    //public float speed;
+   //set up variables
     private Rigidbody2D rb;
     private Transform player;
     private bool isChasing;
     private float currentSpeed;
     [SerializeField] private float minSpeed = 5.5f;
     [SerializeField] private float maxSpeed = 10f;
+    private SpriteRenderer sr;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-
+        sr = GetComponent<SpriteRenderer>();
         currentSpeed = Random.Range(minSpeed, maxSpeed);
+      
     }
 
     void Update()
     {
-        if(isChasing == true)
+
+        Vector3 pos = transform.position;
+
+
+
+        if (isChasing == true)
         {
             Vector2 direction = (player.position - transform.position).normalized;
             rb.linearVelocity = direction * currentSpeed;
+            if (sr != null)
+            {
+                
+                if (direction.x > 0)
+                {
+                    sr.flipX = true;
+                }
+                else if (direction.x < 0)
+                {
+                    sr.flipX = false;
+                }
+            }
         }
         
     }

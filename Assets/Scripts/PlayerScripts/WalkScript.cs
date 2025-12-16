@@ -21,10 +21,12 @@ public class WalkScript : MonoBehaviour
         {
             pos.y += speed * Time.deltaTime;
         }
+       
         if (Input.GetKey("s"))
         {
             pos.y -= speed * Time.deltaTime;
         }
+
         if (Input.GetKey("d"))
         {
             pos.x += speed * Time.deltaTime;

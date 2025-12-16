@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goalTime: 0.1
-  startTime: 0.8
+  startTime: 1
 --- !u!50 &-8356348792231847176
 Rigidbody2D:
   serializedVersion: 5
