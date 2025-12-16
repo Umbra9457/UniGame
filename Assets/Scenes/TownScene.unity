@@ -15854,7 +15854,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mapBoundry: {fileID: 2089351810}
-  direction: 4
+  direction: 0
   teleportTargetPosition: {fileID: 1178872387}
 --- !u!61 &1505867344
 BoxCollider2D:
@@ -16078,7 +16078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mapBoundry: {fileID: 1857580801}
-  direction: 4
+  direction: 0
   teleportTargetPosition: {fileID: 848436834}
 --- !u!61 &1712045149
 BoxCollider2D:
@@ -31562,7 +31562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mapBoundry: {fileID: 2089351810}
-  direction: 4
+  direction: 0
   teleportTargetPosition: {fileID: 163889737}
 --- !u!61 &1857421067
 BoxCollider2D:
@@ -31741,7 +31741,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mapBoundry: {fileID: 1857580801}
-  direction: 4
+  direction: 0
   teleportTargetPosition: {fileID: 1460300880}
 --- !u!61 &1976107484
 BoxCollider2D:

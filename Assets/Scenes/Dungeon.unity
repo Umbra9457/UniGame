@@ -340,7 +340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mapBoundry: {fileID: 1322891986}
-  direction: 4
+  direction: 0
   teleportTargetPosition: {fileID: 1932806610}
 --- !u!61 &128388904
 BoxCollider2D:
@@ -810,7 +810,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mapBoundry: {fileID: 379899435}
-  direction: 4
+  direction: 0
   teleportTargetPosition: {fileID: 1780347753}
 --- !u!1 &350964580
 GameObject:
@@ -6170,7 +6170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mapBoundry: {fileID: 2068564453}
-  direction: 4
+  direction: 0
   teleportTargetPosition: {fileID: 1118711366}
 --- !u!1001 &754890576
 PrefabInstance:
@@ -6334,7 +6334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mapBoundry: {fileID: 1322891986}
-  direction: 4
+  direction: 0
   teleportTargetPosition: {fileID: 1907852846}
 --- !u!1001 &844832280
 PrefabInstance:
@@ -6498,7 +6498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mapBoundry: {fileID: 1892390567}
-  direction: 4
+  direction: 0
   teleportTargetPosition: {fileID: 197635016}
 --- !u!1 &868479257 stripped
 GameObject:
@@ -11446,7 +11446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mapBoundry: {fileID: 1892390567}
-  direction: 4
+  direction: 0
   teleportTargetPosition: {fileID: 1779694829}
 --- !u!1 &1393100467
 GameObject:
@@ -12531,7 +12531,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mapBoundry: {fileID: 379899435}
-  direction: 4
+  direction: 0
   teleportTargetPosition: {fileID: 1264459497}
 --- !u!61 &1477443818
 BoxCollider2D:
@@ -13353,7 +13353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mapBoundry: {fileID: 2068564453}
-  direction: 4
+  direction: 0
   teleportTargetPosition: {fileID: 182602007}
 --- !u!61 &1525559718
 BoxCollider2D:
