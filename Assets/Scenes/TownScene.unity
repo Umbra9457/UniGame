@@ -31791,23 +31791,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2593399433725643087, guid: 46a1ada789466f743bfc75d3f66ab92b, type: 3}
       propertyPath: m_BackGroundColor.b
-      value: 0.18823531
+      value: 0.09019608
       objectReference: {fileID: 0}
     - target: {fileID: 2593399433725643087, guid: 46a1ada789466f743bfc75d3f66ab92b, type: 3}
       propertyPath: m_BackGroundColor.g
-      value: 0.14509805
+      value: 0.0627451
       objectReference: {fileID: 0}
     - target: {fileID: 2593399433725643087, guid: 46a1ada789466f743bfc75d3f66ab92b, type: 3}
       propertyPath: m_BackGroundColor.r
-      value: 0.24313727
+      value: 0.12941177
       objectReference: {fileID: 0}
     - target: {fileID: 4131063180904168403, guid: 46a1ada789466f743bfc75d3f66ab92b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.327
+      value: -2.401
       objectReference: {fileID: 0}
     - target: {fileID: 4131063180904168403, guid: 46a1ada789466f743bfc75d3f66ab92b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.402
+      value: -1.212
       objectReference: {fileID: 0}
     - target: {fileID: 4131063180904168403, guid: 46a1ada789466f743bfc75d3f66ab92b, type: 3}
       propertyPath: m_LocalPosition.z
