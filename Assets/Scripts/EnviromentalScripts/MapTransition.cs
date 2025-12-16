@@ -12,7 +12,7 @@ public class MapTransition : MonoBehaviour
 
 
 
-    enum Direction { up, down, left, right, teleport }
+    enum Direction {teleport}
 
     
 
@@ -39,22 +39,7 @@ public class MapTransition : MonoBehaviour
 
         Vector3 additivePos = Player.transform.position;
 
-        switch (direction)
-        {
-            case Direction.up:
-                additivePos.y += 2;
-                break;
-            case Direction.down:
-                additivePos.y += -2;
-                break;
-            case Direction.left:
-                additivePos.x += -2;
-                break;
-            case Direction.right:
-                additivePos.x += 2;
-                break;
-        }
-
+      
         Player.transform.position = additivePos;
     }
 }
