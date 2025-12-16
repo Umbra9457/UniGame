@@ -8,6 +8,10 @@ public class EnemyHealth : MonoBehaviour
     public int startingHealth = 10; //sets enemies health
     private int currentHealth;
 
+    void Start()
+    {
+        GameManager.enemyCount++;
+    }
 
     private void Awake()
     {
@@ -15,6 +19,10 @@ public class EnemyHealth : MonoBehaviour
     }
     public void Kill()
     {
+
+        GameManager.DecreaseEnemyCount();
+
+
         Destroy(gameObject); //destroys enemy when called
 
     }

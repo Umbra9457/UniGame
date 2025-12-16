@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dungeon.unity
     guid: bc8be28923e39344688d628e4e5e9bba
+  - enabled: 1
+    path: Assets/Scenes/WinScene.unity
+    guid: 327f223144bc9ff42b7a1e02e81cc8ae
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 023bd1a003a6acd4da07ff4267376ac6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
