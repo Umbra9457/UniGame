@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EnemyHealth : MonoBehaviour
+public class PlayerHealth : MonoBehaviour
 {
-    public int startingHealth = 10; //sets enemies health
+
+
+    public int startingHealth = 50; //sets max health
     private int currentHealth;
 
 
@@ -15,8 +17,8 @@ public class EnemyHealth : MonoBehaviour
     }
     public void Kill()
     {
-        Destroy(gameObject); //destroys enemy when called
-
+        Destroy(gameObject);
+        //SceneManager.LoadScene("DeathScene", LoadSceneMode.Additive); //loads death scene when then player is killed
     }
 
     public int GetHealth()
@@ -29,11 +31,12 @@ public class EnemyHealth : MonoBehaviour
     {
 
 
-        currentHealth = currentHealth + changeAmount;
+        currentHealth = currentHealth + changeAmount; //changes players health by damage taken
         currentHealth = Mathf.Clamp(currentHealth, 0, startingHealth);
-        if (currentHealth == 0)
+        if (currentHealth == 0) //checks when players health becomes 0
         {
-            Kill(); 
+            Kill(); //activates the kill function
         }
     }
+    
 }
