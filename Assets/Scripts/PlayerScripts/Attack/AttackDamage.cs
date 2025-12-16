@@ -16,6 +16,7 @@ public class AttackDamage : MonoBehaviour
         if (Enemy)
         {
             Enemy.ChangeHealth(-weaponDamage);
+            AudioManager.Instance.Play(AudioManager.SoundType.HitEnemy);
         }
 
 

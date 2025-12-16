@@ -18,7 +18,7 @@ public class PlayerHealth : MonoBehaviour
     public void Kill()
     {
         Destroy(gameObject);
-        //SceneManager.LoadScene("DeathScene", LoadSceneMode.Additive); //loads death scene when then player is killed
+        SceneManager.LoadScene("DeathScene"); //loads death scene when then player is killed
     }
 
     public int GetHealth()

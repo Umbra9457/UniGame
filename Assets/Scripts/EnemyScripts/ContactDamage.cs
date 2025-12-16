@@ -14,6 +14,7 @@ public class ContactDamage : MonoBehaviour
         if (Player)
         {
             Player.ChangeHealth(-hazardDamage); //takes damage from players current health
+            AudioManager.Instance.Play(AudioManager.SoundType.GetHit);
         }
 
 

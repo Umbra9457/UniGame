@@ -9,8 +9,8 @@ public class EnemyFollow : MonoBehaviour
     private Transform player;
     private bool isChasing;
     private float currentSpeed;
-    [SerializeField] private float minSpeed = 5.5f;
-    [SerializeField] private float maxSpeed = 10f;
+    private float minSpeed = 8f;
+    private float maxSpeed = 14f;
     private SpriteRenderer sr;
 
     void Start()
@@ -58,6 +58,7 @@ public class EnemyFollow : MonoBehaviour
             }
             
             isChasing = true;
+            AudioManager.Instance.Play(AudioManager.SoundType.GhostSpot);
         }
        
     }

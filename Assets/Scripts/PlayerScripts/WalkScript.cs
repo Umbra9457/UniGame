@@ -20,22 +20,25 @@ public class WalkScript : MonoBehaviour
         if (Input.GetKey("w"))
         {
             pos.y += speed * Time.deltaTime;
+            
         }
-       
         if (Input.GetKey("s"))
         {
             pos.y -= speed * Time.deltaTime;
+           
         }
 
         if (Input.GetKey("d"))
         {
             pos.x += speed * Time.deltaTime;
+      
             sr.flipX = false;
 
         }
         if (Input.GetKey("a"))
         {
             pos.x -= speed * Time.deltaTime;
+            
             sr.flipX = true;
 
         }

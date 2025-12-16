@@ -48,6 +48,9 @@ TagManager:
   - name: walkinfront
     uniqueID: 1471038817
     locked: 0
+  - name: Weapon
+    uniqueID: 3606947217
+    locked: 0
   - name: Enemy
     uniqueID: 1719700427
     locked: 0
@@ -59,6 +62,9 @@ TagManager:
     locked: 0
   - name: BorderTrees
     uniqueID: 3692248871
+    locked: 0
+  - name: DungeonTrees
+    uniqueID: 3119060043
     locked: 0
   m_RenderingLayers:
   - Default
